@@ -1,0 +1,42 @@
+/*color*/
+$main-bg: #121716;
+$main-text: #FFFFFF;
+$dim-text: #949494;
+$sel-text: #6E9078;
+
+$green: #496751;
+$text-green: #6E9078;
+$dark-green: #273B2E;
+
+/*text*/
+%main-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+%small-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+%title-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+%btn-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+}

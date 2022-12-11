@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'icons';
+  src:
+    url('../resources/fonts/icons.ttf?vq2770') format('truetype'),
+    url('../resources/fonts/icons.woff?vq2770') format('woff'),
+    url('../resources/fonts/icons.svg?vq2770#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]::before, [class*=" icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cached:before {
+  content: "\e900";
+}
+.icon-chat_bubble:before {
+  content: "\e901";
+}
+.icon-favorite:before {
+  content: "\e902";
+}
+.icon-home:before {
+  content: "\e903";
+}
+.icon-mail:before {
+  content: "\e904";
+}
+.icon-notifications:before {
+  content: "\e905";
+}
+.icon-person:before {
+  content: "\e906";
+}

@@ -1,0 +1,29 @@
+@import '../../../style/variables.scss';
+
+.search{
+    max-width: 275px;
+    input {
+        width: 100%;
+        padding: 10px 10px 10px 50px;
+        @extend %small-text ;
+        color: $main-text;
+        background-color: $dark-green;
+        border-radius: 50px;
+        border: none;
+
+        background-image: url('../../../resources/img/search.svg');
+        background-repeat: no-repeat;
+        background-image: 100%;
+        background-position: 20px 50%;
+        &::placeholder{
+            color: $dim-text;
+        }
+        &:focus, &:hover{
+            box-shadow: 0px 1px 7px 0px $green; 
+            outline: none;
+        }
+        &:focus{
+            box-shadow: 0px 1px 7px 0px $green;
+        }
+    }
+}

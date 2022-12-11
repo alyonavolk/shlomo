@@ -1,0 +1,15 @@
+@import '../../../style/variables.scss';
+
+.button{
+    padding: 12px 40px;
+    @extend %btn-text;
+    border: 1px solid $green;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: $green;
+    color: $main-text;
+    &:hover{
+        background-color: $dark-green;
+        border: 1px solid $dark-green;
+    }
+}

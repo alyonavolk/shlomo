@@ -1,0 +1,8 @@
+@import '../../style/variables.scss';
+
+.app{
+  max-width: 1440px;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+}

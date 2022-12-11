@@ -1,0 +1,13 @@
+@import '../../style/variables.scss';
+
+.asideMenu{
+    &__items{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    max-height: 260px;
+}
