@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/shlomo/static/css/main.fd0d09ba.css",
+    "main.js": "/shlomo/static/js/main.042df5f8.js",
+    "static/js/787.1486513d.chunk.js": "/shlomo/static/js/787.1486513d.chunk.js",
+    "static/media/office.png": "/shlomo/static/media/office.ca11e30b3571e8ddd646.png",
+    "static/media/meme.png": "/shlomo/static/media/meme.d38b8886c55bf3fd64ec.png",
+    "static/media/photoOfProfile.svg": "/shlomo/static/media/photoOfProfile.0e4be2c2ed5b6a05dc88faec3534414e.svg",
+    "static/media/karen.jpg": "/shlomo/static/media/karen.5e6a5b62f5848462f2b8.jpg",
+    "static/media/meme2.jpg": "/shlomo/static/media/meme2.663b17f21774b7bbe3f3.jpg",
+    "static/media/moon.png": "/shlomo/static/media/moon.f8b5f71436abe18f71b7.png",
+    "static/media/foto4.png": "/shlomo/static/media/foto4.d9260df960f86f5dd9b2.png",
+    "static/media/foto6.png": "/shlomo/static/media/foto6.a2d861659a6d552bdb33.png",
+    "static/media/foto5.png": "/shlomo/static/media/foto5.d3b65f81352fe4e1ceff.png",
+    "static/media/jung.jpg": "/shlomo/static/media/jung.cbdc49fac8a2dbd8305c.jpg",
+    "static/media/foto2.png": "/shlomo/static/media/foto2.1ad53921b4ad07cc2bce.png",
+    "static/media/foto3.png": "/shlomo/static/media/foto3.9a99218e5f1b015492b3.png",
+    "static/media/foto1.png": "/shlomo/static/media/foto1.acd752ce4bc193fcb809.png",
+    "static/media/icons.svg?vq2770": "/shlomo/static/media/icons.db8f23e3d6d1a472d70c.svg",
+    "static/media/icons.woff?vq2770": "/shlomo/static/media/icons.01c6a87d5971074927f4.woff",
+    "static/media/icons.ttf?vq2770": "/shlomo/static/media/icons.02e7caec39ffb8ee65ba.ttf",
+    "static/media/search.svg": "/shlomo/static/media/search.9983d54afe24738a8625.svg",
+    "index.html": "/shlomo/index.html",
+    "static/media/arrow_back.svg": "/shlomo/static/media/arrow_back.38d44c6ac138f7b40f0a3513098ed337.svg",
+    "main.fd0d09ba.css.map": "/shlomo/static/css/main.fd0d09ba.css.map",
+    "main.042df5f8.js.map": "/shlomo/static/js/main.042df5f8.js.map",
+    "787.1486513d.chunk.js.map": "/shlomo/static/js/787.1486513d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd0d09ba.css",
+    "static/js/main.042df5f8.js"
+  ]
+}
