@@ -16,7 +16,7 @@ function App() {
         <CSSTransition
           timeout = {300}
           classNames = 'fade'
-          key={lock.key}>
+          key={lock.pathname}>
           <div className='app__anim'>
           <Switch>
               <Route exact path='/'>
