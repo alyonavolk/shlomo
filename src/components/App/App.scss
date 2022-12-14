@@ -4,5 +4,37 @@
   max-width: 1440px;
   margin: 40px auto;
   display: flex;
-  justify-content: space-between;
+  gap: 150px;
+  &__anim{
+    display: flex;
+    gap: 150px;
+  }
+  @media (max-width: 1024px) {
+    gap: 110px;
+    &__anim{
+      gap: 110px;
+    }
+  }
+  @media (max-width: 768px) {
+    gap: 70px;
+    &__anim{
+      gap: 70px;
+    }
+  }
+  @media (max-width: 568px) {
+    gap: 30px;
+    &__anim{
+      gap: 30px;
+    }
+  }
+}
+
+.fade-enter  {
+  opacity:  0;
+  z-index:  1;
+}
+
+.fade-enter.fade-enter-active  {
+  opacity:  1;
+  transition: opacity  250ms ;
 }
