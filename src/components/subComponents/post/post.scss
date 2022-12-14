@@ -1,0 +1,45 @@
+@import '../../../style/variables.scss';
+
+.post{
+    color: $main-text;
+    padding: 8px 33px 0px 25px;
+    border-top: 1px solid $dim-text;
+    &__autor{
+        display: flex;
+        gap: 15px;
+        height: 50px;
+        align-items: center;
+        .imgAutor{
+            width: 50px;
+        }
+        .name{
+            @extend %title-text;
+        }
+        .name_year{
+            color: $dim-text;
+        }
+    }
+    &__content{
+        @extend %main-text;
+        padding: 0 33px 16px 65px;
+        .text{
+            margin-bottom: 12px;
+        }
+        .moon{
+            margin-bottom: 12px;
+        }
+        .reaction{
+            color: $sel-text;
+            display: flex;
+            gap: 75px;
+            .icons{
+                @extend %title-text;
+            }
+            .icons:hover{
+                color: $main-text;
+                cursor: pointer;
+            }
+        }
+    }
+    
+}

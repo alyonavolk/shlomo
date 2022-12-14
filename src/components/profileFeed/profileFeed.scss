@@ -2,6 +2,92 @@
 
 .profileFeed{
     width: 700px;
-    height: 50px;
+    //height: 50px;
     border: 1px solid $dim-text;
+    .top_line{
+        display: flex;
+        padding: 8px 10px 8px 25px;
+        img {
+            cursor: pointer;
+        }
+        .lineName{
+            padding-left: 30px;
+            .name{
+                @extend %title-text;
+                color: $main-text;
+            }
+            .kolPosts{
+                @extend %small-text;
+                color: $dim-text;
+            }
+        }
+        
+    }
+    .mainProfile{
+        &__cover{
+            position: relative;
+            .office{
+                max-width: 700px;
+            }
+            .profileImg{
+                position: absolute;
+                border: 5px solid $main-bg;
+                border-radius: 100%;
+                top: 70%;
+                left: 50px;
+                width: 117px;
+            }
+        }
+        .infoProfile{
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-around;
+            .left{
+                margin: 50px 0 30px 0;
+                .name{
+                    @extend %title-text;
+                    color: $main-text;
+                    margin-bottom: 6px;
+                }
+                .nic_name{
+                    @extend %small-text;
+                    color: $dim-text;
+                    margin-bottom: 17px;
+                }
+                .about_me{
+                    @extend %small-text;
+                    color: $main-text;
+                    margin-bottom: 20px;
+                }
+                .readers{
+                    display: flex;
+                    gap: 30px;
+                    .reader{
+                        p{
+                            @extend %small-text;
+                            color: $main-text;
+                        }
+                        p span{
+                            color: $dim-text
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .posts{
+        .catalog{
+            color: $main-text;
+            display: flex;
+            justify-content: space-around;
+            @extend %title-text;
+            cursor: pointer;
+            &__item{
+                &_active, &:hover{
+                    border-bottom: 4px solid $sel-text;
+                    border-radius: 2px;
+                }
+            }
+        }
+    }
 }
