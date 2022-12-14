@@ -9,7 +9,7 @@
     max-height: 100%;
     @extend %main-text;
     color: $main-text;
-    &:hover {
+    &_active, &:hover {
         color: $text-green;
     }
 }

@@ -1,12 +1,13 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './asideItem.scss';
 import '../../../style/iconsFont.scss';
 
-const AsideItem = ({children, font}) => {
+const AsideItem = ({children, font, link}) => {
     return (
-        <li className={`asideItem icon-${font}`}>
+        <NavLink className={`asideItem icon-${font}`} exact activeClassName='asideItem_active' to={link}>
             {children}
-        </li>
+        </NavLink>
     );
 };
 

@@ -50,10 +50,11 @@ const ProfileFeed = () => {
                     <div className='catalog__item catalog__item_active'>Посты</div>
                     <div className='catalog__item'>Ответ</div>
                 </div>
-                <Post name="Золотой Шломо" name_year="@founder &bull; 1973 г." text="Не думал, что в честь меня назовут кратер." moon={moon}/>
+                <Post profile={profile} name="Золотой Шломо" name_year="@founder &bull; 1973 г." text="Не думал, что в честь меня назовут кратер." moon={moon}/>
                 {data.map((val) => {
                     return (
-                        <Post key={val.id} name={val.name} name_year={val.name_year} text={val.text} moon=""/>
+                        <Post key={val.id} name={val.name} name_year={val.name_year} 
+                        text={val.text} moon="" profile={profile}/>
                     )
                 })}
             </div>

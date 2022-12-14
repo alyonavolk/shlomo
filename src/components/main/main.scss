@@ -1,0 +1,15 @@
+@import '../../style/variables.scss';
+
+.main{
+    width: 700px;
+    border: 1px solid $dim-text;
+    &__title{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 23px;
+        color: $main-text;
+        padding: 20px 0 15px 30px;
+    }
+}

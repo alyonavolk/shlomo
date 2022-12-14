@@ -7,10 +7,10 @@ const AsideMenu = () => {
     return (
         <div className='asideMenu'>
             <ul className='asideMenu__items'>
-                <AsideItem children="Главная" font="home" />
-                <AsideItem children="Уведомления" font="notifications" />
-                <AsideItem children="Сообщения" font="mail" />
-                <AsideItem children="Профиль" font="person" />
+                <AsideItem children="Главная" font="home" link='/main'/>
+                <AsideItem children="Уведомления" font="notifications" link='/1'/>
+                <AsideItem children="Сообщения" font="mail" link='/2'/>
+                <AsideItem children="Профиль" font="person" link='/'/>
             </ul>
             <Button children='Новый пост' />
         </div>

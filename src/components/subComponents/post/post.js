@@ -1,12 +1,11 @@
 import React from "react";
 import './post.scss';
-import profile from '../../../resources/img/photoOfProfile.svg';
 
 const Post = (props) => {
     return(
         <div className="post">
             <div className="post__autor">
-                <img className="imgAutor" src={profile} alt=''/>
+                <img className="imgAutor" src={props.profile} alt=''/>
                 <div className="name">{props.name}</div>
                 <div className="name_year">{props.name_year}</div>
             </div>

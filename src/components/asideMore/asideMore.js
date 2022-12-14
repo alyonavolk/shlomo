@@ -3,12 +3,12 @@ import Gallery from '../gallery/gallery';
 import Search from '../subComponents/search/search';
 import './asideMore.scss';
 
-const AsideMore = () => {
+const AsideMore = ({gallery}) => {
 
     return (
         <div className='asideMore'>
             <Search />
-            <Gallery />
+            { gallery ? <Gallery /> : null}
         </div>
     );
 };
