@@ -1,4 +1,4 @@
-import { BrowserRouter as Route, Switch, useLocation } from 'react-router-dom';
+import { HashRouter as Route, Switch, useLocation } from 'react-router-dom';
 import AsideMenu from '../asideMenu/asideMenu';
 import AsideMore from '../asideMore/asideMore';
 import Main from '../main/main';
